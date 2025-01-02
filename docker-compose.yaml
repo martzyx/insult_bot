@@ -1,0 +1,8 @@
+services:
+  insultbot:
+    build: .
+    container_name: insultbot
+    restart: unless-stopped
+    env_file:
+     - .env
+    command: python3 insult_bot.py
