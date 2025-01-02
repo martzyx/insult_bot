@@ -10,9 +10,5 @@ COPY . .
 # Install the Python dependencies
 RUN pip install --no-cache-dir slack-bolt
 
-# # Set environment variables (or load from a file later)
-# ENV SLACK_BOT_TOKEN=your-bot-token
-# ENV SLACK_APP_TOKEN=your-app-token
-
 # Run the Python script
 CMD ["python", "insult_bot.py"]
