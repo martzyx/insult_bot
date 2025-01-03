@@ -5,4 +5,6 @@ services:
     restart: unless-stopped
     env_file:
      - .env
+    volumes:
+      - ./usage_data:/app/data
     command: python3 insult_bot.py
