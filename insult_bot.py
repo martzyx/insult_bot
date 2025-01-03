@@ -19,20 +19,30 @@ app = App(token=SLACK_BOT_TOKEN)
 
 # List of quotes
 quotes = [
-    "Yeah, don't worry about it.",
-    "Them boys been making salad...",
-    "Is it gonna fail? Probably.",
-    "Why are you asking me? I just work here.",
-    "We don't follow guides, we do things... differently.",
-    "Oh boy...",
+    "yeah, don't worry about it.",
+    "them boys been making salad...",
+    "is it gonna fail? Probably.",
+    "why are you asking me? I just work here.",
+    "we don't follow guides, we do things... differently.",
+    "oh boy...",
     "I like to call this \"faith based programming\"",
-    "Will it work? Probably not. Are you proud? Hell yeah.",
-    "Are you driving value today?",
+    "will it work? Probably not. Are you proud? Hell yeah.",
+    "are you driving value today?",
     "I hate clerk.js...",
-    "Are you using a GUI? Ew.",
-    "Have you heard of Vim?",
-    "If you're not using Vim, I have lost my respect for you",
-    "You're a good guy, okay?"
+    "are you using a GUI? Ew.",
+    "have you heard of Vim?",
+    "if you're not using Vim, I have lost my respect for you",
+    "you're a good guy, okay?",
+    "in case of failure, always examine someone else's execution.",
+    "i am calling in sick tomorrow.",
+    "AI is wrong",
+    "buy low, sell high",
+    "focus on your non-constructive criticism",
+    "one of the best ways to beat the market is to pick the right stock",
+    "you can guarantee success, by consistently lowering your standards",
+    "never doubt yourself, if you can doubt someone else",
+    "people ask me how to succeed. simple, avoid failure",
+    "work harder, not smarter."
 ]
 
 # File to store usage count and user data
