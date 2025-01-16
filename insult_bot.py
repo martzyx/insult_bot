@@ -1,6 +1,7 @@
 import random
 import json
 import os
+import re
 from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
 
@@ -26,7 +27,7 @@ quotes = [
     "we don't follow guides, we do things... differently.",
     "oh boy...",
     "I like to call this \"faith based programming\"",
-    "will it work? Probably not. Are you proud? Hell yeah.",
+    "will it work? Probably not. Are wj proud? Hell yeah.",
     "are you driving value today?",
     "I hate clerk.js...",
     "are you using a GUI? Ew.",
@@ -73,7 +74,7 @@ def save_user_data(data):
 user_data = load_user_data()
 
 # Define a message handler
-@app.message("hello")
+@app.message(re.compile(r"\b(hello|hi|hey)\b", re.IGNORECASE))
 def respond_with_quote(message, say, logger):
     global user_data
 
