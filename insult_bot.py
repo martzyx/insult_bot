@@ -5,7 +5,7 @@ import re
 from slack_bolt import App
 from slack_bolt.adapter.socket_mode import SocketModeHandler
 
-print(f"Current working directory: {os.getcwd()}")
+# print(f"Current working directory: {os.getcwd()}")
 
 # Load Slack tokens from environment variables
 SLACK_BOT_TOKEN = os.getenv("SLACK_BOT_TOKEN")
